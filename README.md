@@ -1,5 +1,3 @@
-https://docs.hetzner.cloud/#locations
-
 # Mordhau Docker Server with Terraform on Hetzner Cloud
 
 Easily set up your own Mordhau server on Hetzner Cloud in just 10 steps! This Terraform configuration allows you to create a Mordhau server within 10 minutes.
@@ -65,7 +63,14 @@ docker logs mordhau2-dedicated -f
 ## Contributing
 
 Contributions are welcome! Please feel free to open an issue or submit a pull request with any improvements, bug fixes, or suggestions.
+Don't forget to add yourself to Authors section 😉
 
 ## Questions
 
 Please open a question in discussion tab, I'll be glad to help you ASAP!
+
+## Authors
+
+Andrii Kotliar (maintainer) - [@Andreybest](https://github.com/Andreybest)
+
+Walentin (docker image maintainer) - [@CM2Walki](https://github.com/CM2Walki)
