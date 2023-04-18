@@ -1,0 +1,15 @@
+# Variables with tokens and settings
+terraform.tfvars
+
+# After init folder
+.terraform/
+
+# Terraform lockfile
+.terraform.lock.hcl
+
+# Mac files
+.DS_Store
+
+# .tfstate files
+*.tfstate
+*.tfstate.*

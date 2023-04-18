@@ -1,0 +1,25 @@
+# Hetzner secrets
+hcloud_token    = ""
+ssh_fingerprint = ""
+
+# VM configuration
+name        = "mordhau-cx31-ubuntu-22-04"
+image       = "ubuntu-22.04"
+server_type = "cx31"
+location    = "fsn1"
+
+# Mordhau server settings
+server_adminpw    = "replacethisyoumadlad"
+server_pw         = "" # Leave this empty if you don't want to use password
+server_name       = "My Mordhau Server"
+server_maxplayers = 32
+server_tickrate   = 60
+# I don't recommend to change ports
+server_port          = 7777
+server_queryport     = 27015
+server_beaconport    = 15000
+server_gameini       = "cfg/Game.ini"
+server_engineini     = "cfg/Engine.ini"
+server_defaultmap    = "ThePit\\/FFA_ThePit"
+steamcmd_update_args = ""
+additional_args      = ""
